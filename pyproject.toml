@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayes-homelab"
+dynamic = ["version"]
+requires-python = "3.12"
+dependencies = [
+    "jaxlib>=0.4.26",
+    "jax-metal>=0.1.0",
+    "pandas>=2.2.2",
+    "numpy>=2.0.1",
+    "numpyro>=0.15.2",
+]
+
+
